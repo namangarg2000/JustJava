@@ -19,9 +19,9 @@
             android:id="@+id/name_field"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
             android:hint="Name"
-            android:inputType="textCapWords"
-            android:layout_marginBottom="16dp"/>
+            android:inputType="textCapWords" />
 
 
         <TextView
@@ -73,7 +73,7 @@
                 android:id="@+id/quantity_text_view"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="0"
+                android:text="1"
                 android:textColor="@color/black"
                 android:textSize="16sp" />
 
@@ -86,23 +86,6 @@
                 android:text="+" />
 
         </LinearLayout>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="Order Summary"
-            android:textAllCaps="true"
-            android:textSize="16sp" />
-
-        <TextView
-            android:id="@+id/order_summary_text_view"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Name: \nQuantity: \nTotal Price: $ \nThank You!"
-            android:textColor="@color/black"
-            android:textSize="16sp" />
 
         <Button
             android:id="@+id/button"
